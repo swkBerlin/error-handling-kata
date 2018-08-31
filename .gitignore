@@ -1,0 +1,26 @@
+
+# IntelliJ IDEA files
+.idea/
+out/
+.idea_modules/
+.package-lock.json/
+
+# Scala/SBT files
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.lib/
+*.class
+
+
+
+
+
+
+
+
+
+
+
