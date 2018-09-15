@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'functionalbankingkata'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+def functionaljava_version = '4.8'
+def junit_version = '4.12'
+def mockito_version = '2.22.0'
+
+dependencies {
+    compile "org.functionaljava:functionaljava:$functionaljava_version"
+    compile "org.functionaljava:functionaljava-java8:$functionaljava_version"
+    compile "org.functionaljava:functionaljava-java-core:$functionaljava_version"
+
+    testCompile "junit:junit:$junit_version"
+    testCompile "org.mockito:mockito-core:$mockito_version"
+}
