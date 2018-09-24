@@ -66,3 +66,10 @@ UI/controller layer that calls the service layer and is presenting the results/e
     - `WithdrawView withdraw(int cents)`
     - `TransactionView showTransaction(string id)`
 - NOTE: you are not constrained by these signatures, and if you can make them better, certainly do.
+
+## Recommended Languages/Libraries
+
+- Scala: no libraries required, types `Either`, `Option` and others are included in the standard library.
+- Kotlin: you’ll need a library, e.g.: [arrow-kt](https://arrow-kt.io/).
+- Java: you’ll need a library, e.g.: [functional java](https://www.functionaljava.org/docs.html).
+- Typescript: you’ll need a library, e.g.: [purify](https://gigobyte.github.io/purify/) (use `Maybe` instead of `Option`).
